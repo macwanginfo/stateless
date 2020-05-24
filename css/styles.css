@@ -3,7 +3,7 @@ html{
 }
 
 h1{
-    font-size: 4vw;
+    font-size: 50px;
     font-family: sans-serif;
     font-weight: 300;
     margin: 0;
@@ -18,7 +18,7 @@ h1{
 }
 
 a{
-    font-size: 4vw;
+    font-size: 50px;
     color: black;
     text-decoration: none;
 }
@@ -33,7 +33,7 @@ body{
 }
 
 p{
-    font-size: 2vw;
+    font-size: 25px;
     font-family: sans-serif;
     font-weight: 300;
     margin-top: 0;
@@ -60,16 +60,16 @@ img:hover{
     margin-top: 25vh;
 }
     
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     h1 {
-        font-size: 5vw;
+        font-size: 30px;
     }
     
     a{
-        font-size: 5vw;
+        font-size: 30px;
     }
     
     p{
-        font-size: 3vw;
+        font-size: 15px;
     }
 }
