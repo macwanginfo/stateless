@@ -60,13 +60,13 @@ img:hover{
     margin-top: 25vh;
 }
     
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
     h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     
     a{
-        font-size: 30px;
+        font-size: 25px;
     }
     
     p{
