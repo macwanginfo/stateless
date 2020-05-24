@@ -6,11 +6,16 @@
         <title>Stateless Identity</title>
         <meta name="description" content="Stateless Identity Review">
         <link rel="stylesheet" href="css/styles.css">
+
     </head>
     
     <body>
         <div class="title">
-            <h1>Stateless Cinema<br>Identity Review 5.24.20</h1>
+            <h1>Stateless Cinema<br>Identity Review <span id="datetime"></span></h1>
+            <script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
         </div>
         
         <div class="D">
