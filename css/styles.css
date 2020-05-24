@@ -51,25 +51,28 @@ img:hover{
 }
 
 .title{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 1vw;
+    position: fixed;
+    top: 1vw; 
+    width: 100%;
 }
 
 .D{
     margin-top: 25vh;
 }
+
+.footer{
+    margin-top: 5vw;
+    bottom:0;
+}
     
 @media only screen and (max-width: 750px) {
-    h1 {
-        font-size: 25px;
+    h1 {font-size: 25px;
     }
     
-    a{
-        font-size: 25px;
+    a{font-size: 25px;
     }
     
-    p{
-        font-size: 15px;
+    p{font-size: 15px;
     }
+
 }
