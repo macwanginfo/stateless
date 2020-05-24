@@ -1,0 +1,39 @@
+html{
+    background-color: beige;
+
+}
+
+h1{
+    font-size: 4vw;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    margin: 1vw;
+}
+
+p{
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 5vw;
+}
+
+img{
+    max-width: 70vw;
+    max-height: 70vh;
+    margin: 1vw;
+}
+
+.title{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1vw;
+}
+
+.D{
+    margin-top: 25vh;
