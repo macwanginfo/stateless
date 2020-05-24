@@ -1,6 +1,5 @@
 html{
     background-color: beige;
-
 }
 
 h1{
@@ -8,6 +7,24 @@ h1{
     font-family: sans-serif;
     font-weight: 300;
     margin: 0;
+}
+
+.nav{
+    position: fixed;
+    top: 1vw; 
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 300;    
+}
+
+a{
+    font-size: 4vw;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
 }
 
 body{
@@ -29,6 +46,10 @@ img{
     margin: 1vw;
 }
 
+img:hover{
+    border-radius: 25px;
+}
+
 .title{
     position: -webkit-sticky;
     position: sticky;
@@ -37,3 +58,18 @@ img{
 
 .D{
     margin-top: 25vh;
+}
+    
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 5vw;
+    }
+    
+    a{
+        font-size: 5vw;
+    }
+    
+    p{
+        font-size: 3vw;
+    }
+}

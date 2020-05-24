@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Stateless Identity</title>
         <meta name="description" content="Stateless Identity Review">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <link rel="stylesheet" href="css/styles.css">
 
     </head>
@@ -18,8 +19,13 @@ document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
 </script>
         </div>
         
+        <div class="nav">
+            <a href="#D1">D1</a><br>
+            <a href="#D2">D2</a>
+        </div>
+        
         <div class="D">
-            <h1>Direction 1</h1>
+            <h1 id="D1">Direction 1</h1>
             
             <img src="D2/1.jpg" alt="Direction 1_1">
             <p>Caption caption caption caption caption caption</p>
@@ -34,8 +40,8 @@ document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
             <p>Caption caption caption caption caption caption</p>
         </div>
         
-        <div class="D">
-            <h1>Direction 2</h1>
+        <div class="D" id="D2">
+            <h1 id="D2">Direction 2</h1>
             
             <img src="D2/1.jpg" alt="Direction 1_1">
             <p>Caption caption caption caption caption caption</p>
