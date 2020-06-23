@@ -1,5 +1,5 @@
 html{
-    background-color: beige;
+    background-color: darkgray;
 }
 
 h1{
@@ -9,19 +9,6 @@ h1{
     margin: 0;
 }
 
-.nav{
-    position: fixed;
-    top: 1vw; 
-    text-align: left;
-    font-family: sans-serif;
-    font-weight: 300;    
-}
-
-a{
-    font-size: 50px;
-    color: black;
-    text-decoration: none;
-}
 
 a:hover{
     color: white;
@@ -47,7 +34,7 @@ img{
 }
 
 img:hover{
-    border-radius: 25px;
+    box-shadow: 10px 10px 10px;
 }
 
 .title{
@@ -58,10 +45,6 @@ img:hover{
 
 .D{
     margin-top: 50vh;
-}
-
-.gif{
-    mix-blend-mode: multiply;
 }
 
 .footer{
